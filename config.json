@@ -1,0 +1,22 @@
+{
+  "personal": {
+    "name": "Dulanga Dasanayake",
+    "title": "Web Developer",
+    "avatar": "/images/dulanga.jpg",
+    "intro": "I'm a Creative Front-End Web Developer based in Kandy, Sri Lanka",
+    "email": "dulanganiroshan721@gmail.com",
+    "phone": "+94 76 816 7031",
+    "location": "Kandy, Sri Lanka"
+  },
+  "social": {
+    "github": "https://github.com/DulangaDasanayake",
+    "linkedin": "https://www.linkedin.com/in/iamdulanga/",
+    "instagram": "https://www.instagram.com/iamdulanga"
+  },
+  "sections": {
+    "about": {
+      "title": "About Me",
+      "description": "I'm Creative Front-End Web Developer from Kandy, Sri Lanka, working in web development. I enjoy turning complex problems into simple, beautiful and intuitive designs."
+    }
+  }
+} 

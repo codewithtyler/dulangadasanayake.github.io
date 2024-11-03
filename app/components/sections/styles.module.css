@@ -1,0 +1,33 @@
+.section {
+    padding: 30px;
+    margin-left: 300px;
+    transition: opacity 0.3s ease;
+}
+
+.header {
+    margin-bottom: 30px;
+}
+
+.articleTitle {
+    color: var(--orange-yellow-crayola);
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.contactInfo {
+    display: grid;
+    gap: 15px;
+}
+
+.contactInfo p {
+    color: var(--light-gray);
+    font-size: 16px;
+}
+
+@media (max-width: 768px) {
+    .section {
+        margin-left: 0;
+        padding: 20px;
+    }
+}
