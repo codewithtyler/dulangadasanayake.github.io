@@ -1,0 +1,58 @@
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 100vh;
+    background: var(--jet);
+    border-right: 1px solid var(--light-gray-70);
+    padding: 24px;
+    overflow-y: auto;
+    z-index: 10;
+}
+
+.sidebar-info {
+    padding-block: 20px;
+}
+
+.avatar-box {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-inline: auto;
+    margin-bottom: 15px;
+}
+
+.info-content {
+    text-align: center;
+}
+
+.name {
+    color: var(--orange-yellow-crayola);
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.title {
+    color: var(--light-gray);
+    font-size: 16px;
+}
+
+.sidebar-social {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding-block: 15px;
+}
+
+.social-link {
+    color: var(--light-gray);
+    font-size: 18px;
+    transition: color var(--transition-1);
+}
+
+.social-link:hover {
+    color: var(--orange-yellow-crayola);
+}
